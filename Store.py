@@ -29,6 +29,6 @@ total_cost=sub_total+tax
 print(f"Price of item: ${price}")
 print(f"Quantity: {quantity}")
 print(f"Tax rate: {tax_rate}%\n")
-print(f"Subtotal: {sub_total}")
+print(f"Subtotal: ${sub_total}")
 print(f"tax: ${round(tax,2)}")
 print(f"Total: ${round(total_cost,2)}")
