@@ -21,3 +21,4 @@ print(f"Tax : $", tax_element[:4])
 total = tax + Subtotal
 total_element = str(total)
 print(f"Total : $", total_element[:4])
+
