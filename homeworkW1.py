@@ -1,5 +1,4 @@
 
-
 price= 37
 quantity= 3
 taxRate= 15
@@ -12,4 +11,4 @@ print("Tax rate:", taxRate, "%")
 print('\n')
 print("Subtotal: $" ,subtotal)
 print("Tax: $", tax)
-print("Total: $", total)
+print("Total: $", total) 
