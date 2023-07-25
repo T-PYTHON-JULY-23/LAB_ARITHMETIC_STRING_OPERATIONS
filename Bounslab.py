@@ -1,7 +1,7 @@
 #Define a string variable containing a sentence with at least 10 words.
 StrVar = "Hello my name is Abdulmalik this is python bootcamp i'm very excited to learn python"
 #Define a string variable containing a word that appears in the sentence.
-V1 = "name"
+V1 = "python"
 #Print the length of the sentence.
 print(len(StrVar))
 #Print the index of the first occurrence of the word in the sentence.
