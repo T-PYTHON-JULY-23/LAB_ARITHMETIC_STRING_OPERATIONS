@@ -7,7 +7,7 @@ print(len(StrVar))
 #Print the index of the first occurrence of the word in the sentence.
 print(StrVar.index("Hello"))
 #Print the number of times the word appears in the sentence.
-print(len(StrVar.split()))
+print(StrVar.count("python"))
 #Print the sentence in all uppercase letters.
 print(StrVar.upper())
 #Print the sentence in all lowercase letters.

@@ -11,9 +11,9 @@ tax = subtotal * tax_rate
 #6. Calculate the total cost by adding the subtotal and the tax, and store the result in a variable named "total".
 Total = subtotal + tax
 #7. Print the subtotal, tax, and total costs, formatted as currency (e.g., $8.97 for the total cost).
-print("Price of item:${}".format(price))
+print("Price of item:${}".format(price,2))
 print("quantity:",quantity)
-print("Tax rate:{}%".format(tax_rate))
-print("Subtotal is : ${}".format(subtotal))
-print("Tax is :${}".format(tax))
-print("Toatal is: ${}".format(Total))
+print("Tax rate:{}%".format(tax_rate*100))
+print("Subtotal is : ${}".format(subtotal,2))
+print("Tax is :${}".format(round(tax,2)))
+print("Toatal is: ${}".format(round(Total,2)))
