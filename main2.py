@@ -20,8 +20,8 @@ total_cost = subtotal + tax
 # Print the subtotal, tax, and total costs formatted as currency
 print("Price of item: $", price)
 print("quantity ", quantity)
-print("Tax rate: " , tax_rate)
+print ("Tax rate: " , tax_rate)
 
 print("Subtotal: $", subtotal)
-print("Tax: $", tax)
-print("Total Cost: $:", total_cost)
+print("Tax: $",   round(tax,2))
+print("Total Cost: $:", round(total_cost,2))
